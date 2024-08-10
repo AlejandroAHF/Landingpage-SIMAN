@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 *{
     padding: 0%;
@@ -161,5 +162,41 @@ nav{
 .carta:hover{
     width: 51%;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.397);
+    transition: 0.4s;
+}
+
+.container-suscripcion{
+    background-color: rgb(168, 51, 56);
+    color: white;
+    font-family: "Gupter", serif;
+    text-align: center;
+}
+
+.container-suscripcion h2{
+    padding: 2%;
+    font-size:xx-large;
+}
+
+.container-suscripcion input{
+    margin: 2%;
+    padding: 1%;
+    width: 15%;
+    border-radius: 16px;
+    border: none;
+}
+
+.container-suscripcion button{
+    margin-bottom: 3%;
+    padding: 1%;
+    border-radius: 10px;
+    color: rgb(168, 51, 56);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container-suscripcion button:hover{
+    font-weight: bolder;
+    padding: 1.2%;
     transition: 0.4s;
 }
