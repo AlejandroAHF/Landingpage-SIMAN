@@ -246,7 +246,7 @@ footer .social a {
     text-decoration: none;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .paginas {
         display: none;
     }
