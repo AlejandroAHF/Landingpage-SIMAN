@@ -200,3 +200,33 @@ nav{
     padding: 1.2%;
     transition: 0.4s;
 }
+
+.container-testimonios{
+    font-family: "Gupter", serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container-testimonios h2{
+    text-align: center;
+}
+
+.Testimonios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.testimonio{
+    background-color: rgba(128, 128, 128, 0.281);
+    text-align: center;
+    width: 25%;
+    border-radius: 16px;
+}
+
+.testimonio img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100px;
+    margin: 2%;
+}
