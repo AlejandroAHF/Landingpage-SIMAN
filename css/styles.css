@@ -256,12 +256,11 @@ footer .social a {
         "imagenes1"
         "texto"
         "imagenes2";
-        height: 300vh;
+        height: 180vh;
     }
 
     .texto{
         margin-top: 15%;
-        margin-bottom: 40%;
     }
 
     .imagenes2{
