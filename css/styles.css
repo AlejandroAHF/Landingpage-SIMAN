@@ -246,7 +246,7 @@ footer .social a {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .paginas {
         display: none;
     }
@@ -256,11 +256,12 @@ footer .social a {
         "imagenes1"
         "texto"
         "imagenes2";
-        height: 150vh;
+        height: 300vh;
     }
 
     .texto{
         margin-top: 15%;
+        margin-bottom: 40%;
     }
 
     .imagenes2{
