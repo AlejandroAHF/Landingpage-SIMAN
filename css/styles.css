@@ -251,20 +251,17 @@ footer .social a {
         display: none;
     }
 
-    .container-productos {
-        grid-template-areas:
-        "imagenes1"
-        "texto"
-        "imagenes2";
-        height: 180vh;
-    }
-
     .texto{
         margin-top: 15%;
+        height: 100vh;
+    }
+
+    .imagenes1{
+        display: none;
     }
 
     .imagenes2{
-        margin-bottom: 15%;
+        display: none;
     }
 
     .cartas {
